@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import ScreenSaver from '../../../components/ScreenSaver';
 
 function ScreenSaverExercise() {
   return (

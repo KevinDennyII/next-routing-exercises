@@ -1,10 +1,10 @@
 import React from 'react';
 import ScreenSaver from '../../../../components/ScreenSaver';
 
-function ScreenSaverExercise() {
+function ScreenSaverExercise({params}) {
   return (
     <main className="screen-saver-wrapper">
-      <ScreenSaver color="white" />
+      <ScreenSaver color={params.color} />
     </main>
   );
 }
